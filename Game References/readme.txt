@@ -1,0 +1,1 @@
+Tähän kansioon voi pistää kaikki referenssikuvat, nimeä ne vaan järkevästi.
