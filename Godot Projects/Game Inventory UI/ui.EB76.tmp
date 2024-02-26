@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://kx8lqqv8r8fq"]
+
+[ext_resource type="PackedScene" uid="uid://wuddfw010v00" path="res://drag_select.tscn" id="1_kr1xa"]
+[ext_resource type="PackedScene" uid="uid://bvr54vywpxh8a" path="res://mouse_manager.tscn" id="1_wsfoh"]
+[ext_resource type="PackedScene" uid="uid://bqn7gfbujdnla" path="res://fps_counter.tscn" id="2_h7y3i"]
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="FpsCounter" parent="." instance=ExtResource("2_h7y3i")]
+layout_mode = 1
+
+[node name="DragSelect" parent="." instance=ExtResource("1_kr1xa")]
+layout_mode = 1
+drag_outline_width = 2.5
+drag_outline_color = Color(0.00784314, 0.501961, 0, 0.85098)
+drag_fill_color = Color(0, 0.501961, 0.0823529, 0.12549)
+
+[node name="MouseManager" parent="." instance=ExtResource("1_wsfoh")]
+layout_mode = 1
+offset_left = 748.694
+offset_top = 686.162
+offset_right = 748.694
+offset_bottom = 686.162
+use_custom_size = true
+sensitivity = 100.0

@@ -1,0 +1,22 @@
+[gd_scene load_steps=6 format=3 uid="uid://kx8lqqv8r8fq"]
+
+[ext_resource type="Script" path="res://ui.gd" id="1_gntko"]
+[ext_resource type="PackedScene" uid="uid://bvr54vywpxh8a" path="res://mouse_manager.tscn" id="2_0ciac"]
+[ext_resource type="PackedScene" uid="uid://bqn7gfbujdnla" path="res://fps_counter.tscn" id="2_h7y3i"]
+[ext_resource type="Texture2D" uid="uid://kehcqaj01y40" path="res://Game assets/cursor.png" id="3_027j3"]
+[ext_resource type="PackedScene" uid="uid://cx03h57nm5c43" path="res://inventory/inventory_ui.tscn" id="5_a0bit"]
+
+[node name="UI" type="CanvasLayer"]
+script = ExtResource("1_gntko")
+
+[node name="FpsCounter" parent="." instance=ExtResource("2_h7y3i")]
+
+[node name="MouseManager" parent="." instance=ExtResource("2_0ciac")]
+cursor_image = ExtResource("3_027j3")
+use_custom_size = true
+
+[node name="InventoryUI" parent="." instance=ExtResource("5_a0bit")]
+offset_left = 47.0
+offset_top = 264.0
+offset_right = -817.0
+offset_bottom = -196.0

@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://wuddfw010v00"]
+
+[ext_resource type="Script" path="res://drag select/drag_select.gd" id="1_vch0v"]
+
+[node name="DragSelect" type="Control"]
+top_level = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vch0v")

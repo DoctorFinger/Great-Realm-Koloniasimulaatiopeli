@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c26yl6j5d4i71"]
+
+[ext_resource type="Script" path="res://camera_controller.gd" id="1_487jo"]
+
+[node name="WorldCamera" type="Camera2D" groups=["WorldCamera"]]
+position = Vector2(576, 324)
+script = ExtResource("1_487jo")

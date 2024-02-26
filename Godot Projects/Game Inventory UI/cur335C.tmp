@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bvr54vywpxh8a"]
+
+[ext_resource type="Script" path="res://cursor_manager.gd" id="1_k1qwh"]
+[ext_resource type="Texture2D" uid="uid://kehcqaj01y40" path="res://Game assets/cursor.png" id="2_s33r6"]
+
+[node name="CursorManager" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_k1qwh")
+cursor_texture = ExtResource("2_s33r6")

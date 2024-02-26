@@ -1,0 +1,548 @@
+[gd_scene load_steps=7 format=3 uid="uid://d1rd67dylrvvh"]
+
+[ext_resource type="Script" path="res://world.gd" id="1_lkvul"]
+[ext_resource type="PackedScene" uid="uid://pc0apmk8rcdk" path="res://entity.tscn" id="2_2c0vf"]
+[ext_resource type="PackedScene" uid="uid://c26yl6j5d4i71" path="res://world_camera.tscn" id="2_btafw"]
+[ext_resource type="PackedScene" uid="uid://kx8lqqv8r8fq" path="res://ui.tscn" id="4_kxw5u"]
+[ext_resource type="Resource" uid="uid://ddciqjacgbo17" path="res://inventory/inventory.tres" id="5_2joxq"]
+[ext_resource type="PackedScene" uid="uid://wuddfw010v00" path="res://drag select/drag_select.tscn" id="5_6bb7o"]
+
+[node name="world" type="Node2D"]
+script = ExtResource("1_lkvul")
+
+[node name="Entities" type="Node2D" parent="."]
+
+[node name="entity65" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(-68, 152)
+collision_mask = 0
+
+[node name="entity66" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(0, 189)
+
+[node name="entity67" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(-11, 151)
+
+[node name="entity68" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(-57, 215)
+
+[node name="entity69" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(55, 249)
+
+[node name="entity70" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(269, 360)
+
+[node name="entity71" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(88, 335)
+
+[node name="entity72" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(17, 299)
+
+[node name="entity73" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(95, 131)
+collision_mask = 0
+
+[node name="entity74" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(163, 168)
+
+[node name="entity75" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(152, 130)
+
+[node name="entity76" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(106, 194)
+
+[node name="entity77" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(218, 228)
+
+[node name="entity78" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(432, 339)
+
+[node name="entity79" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(251, 314)
+
+[node name="entity80" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(180, 278)
+
+[node name="entity81" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(-43, 411)
+collision_mask = 0
+
+[node name="entity82" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(25, 448)
+
+[node name="entity83" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(14, 410)
+
+[node name="entity84" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(-32, 474)
+
+[node name="entity85" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(80, 508)
+
+[node name="entity86" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(294, 619)
+
+[node name="entity87" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(113, 594)
+
+[node name="entity88" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(42, 558)
+
+[node name="entity89" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(120, 390)
+collision_mask = 0
+
+[node name="entity90" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(188, 427)
+
+[node name="entity91" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(177, 389)
+
+[node name="entity92" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(131, 453)
+
+[node name="entity93" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(243, 487)
+
+[node name="entity94" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(457, 598)
+
+[node name="entity95" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(276, 573)
+
+[node name="entity96" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(205, 537)
+
+[node name="entity97" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(424, 187)
+collision_mask = 0
+
+[node name="entity98" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(492, 224)
+
+[node name="entity99" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(481, 186)
+
+[node name="entity100" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(435, 250)
+
+[node name="entity101" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(547, 284)
+
+[node name="entity102" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(761, 395)
+
+[node name="entity103" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(580, 370)
+
+[node name="entity104" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(509, 334)
+
+[node name="entity105" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(587, 166)
+collision_mask = 0
+
+[node name="entity106" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(655, 203)
+
+[node name="entity107" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(644, 165)
+
+[node name="entity108" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(598, 229)
+
+[node name="entity109" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(710, 263)
+
+[node name="entity110" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(924, 374)
+
+[node name="entity111" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(743, 349)
+
+[node name="entity112" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(672, 313)
+
+[node name="entity113" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(449, 446)
+collision_mask = 0
+
+[node name="entity114" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(517, 483)
+
+[node name="entity115" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(506, 445)
+
+[node name="entity116" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(460, 509)
+
+[node name="entity117" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(572, 543)
+
+[node name="entity118" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(786, 654)
+
+[node name="entity119" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(605, 629)
+
+[node name="entity120" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(534, 593)
+
+[node name="entity121" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(612, 425)
+collision_mask = 0
+
+[node name="entity122" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(680, 462)
+
+[node name="entity123" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(669, 424)
+
+[node name="entity124" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(623, 488)
+
+[node name="entity125" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(735, 522)
+
+[node name="entity126" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(949, 633)
+
+[node name="entity127" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(768, 608)
+
+[node name="entity128" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(697, 572)
+
+[node name="entity" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(63, 60)
+collision_mask = 0
+
+[node name="entity2" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(131, 97)
+
+[node name="entity3" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(120, 59)
+
+[node name="entity4" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(74, 123)
+
+[node name="entity5" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(186, 157)
+
+[node name="entity6" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(400, 268)
+
+[node name="entity7" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(219, 243)
+
+[node name="entity8" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(148, 207)
+
+[node name="entity9" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(226, 39)
+collision_mask = 0
+
+[node name="entity10" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(294, 76)
+
+[node name="entity11" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(283, 38)
+
+[node name="entity12" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(237, 102)
+
+[node name="entity13" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(349, 136)
+
+[node name="entity14" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(563, 247)
+
+[node name="entity15" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(382, 222)
+
+[node name="entity16" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(311, 186)
+
+[node name="entity17" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(88, 319)
+collision_mask = 0
+
+[node name="entity18" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(156, 356)
+
+[node name="entity19" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(145, 318)
+
+[node name="entity20" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(99, 382)
+
+[node name="entity21" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(211, 416)
+
+[node name="entity22" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(425, 527)
+
+[node name="entity23" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(244, 502)
+
+[node name="entity24" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(173, 466)
+
+[node name="entity25" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(251, 298)
+collision_mask = 0
+
+[node name="entity26" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(319, 335)
+
+[node name="entity27" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(308, 297)
+
+[node name="entity28" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(262, 361)
+
+[node name="entity29" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(374, 395)
+
+[node name="entity30" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(588, 506)
+
+[node name="entity31" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(407, 481)
+
+[node name="entity32" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(336, 445)
+
+[node name="entity33" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(555, 95)
+collision_mask = 0
+
+[node name="entity34" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(623, 132)
+
+[node name="entity35" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(612, 94)
+
+[node name="entity36" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(566, 158)
+
+[node name="entity37" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(678, 192)
+
+[node name="entity38" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(892, 303)
+
+[node name="entity39" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(711, 278)
+
+[node name="entity40" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(640, 242)
+
+[node name="entity41" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(718, 74)
+collision_mask = 0
+
+[node name="entity42" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(786, 111)
+
+[node name="entity43" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(775, 73)
+
+[node name="entity44" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(729, 137)
+
+[node name="entity45" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(841, 171)
+
+[node name="entity46" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(1055, 282)
+
+[node name="entity47" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(874, 257)
+
+[node name="entity48" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(803, 221)
+
+[node name="entity49" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(580, 354)
+collision_mask = 0
+
+[node name="entity50" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(648, 391)
+
+[node name="entity51" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(637, 353)
+
+[node name="entity52" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(591, 417)
+
+[node name="entity53" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(703, 451)
+
+[node name="entity54" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(917, 562)
+
+[node name="entity55" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(736, 537)
+
+[node name="entity56" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(665, 501)
+
+[node name="entity57" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(743, 333)
+collision_mask = 0
+
+[node name="entity58" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(811, 370)
+
+[node name="entity59" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(800, 332)
+
+[node name="entity60" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(754, 396)
+
+[node name="entity61" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(866, 430)
+
+[node name="entity62" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(50, 117)
+
+[node name="entity63" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(899, 516)
+
+[node name="entity64" parent="Entities" instance=ExtResource("2_2c0vf")]
+visibility_layer = 2
+position = Vector2(828, 480)
+
+[node name="DragSelect" parent="." instance=ExtResource("5_6bb7o")]
+
+[node name="UI" parent="." instance=ExtResource("4_kxw5u")]
+inventory = ExtResource("5_2joxq")
+
+[node name="WorldCamera" parent="." instance=ExtResource("2_btafw")]

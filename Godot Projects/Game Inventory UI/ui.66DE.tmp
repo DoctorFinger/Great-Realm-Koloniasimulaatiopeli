@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://kx8lqqv8r8fq"]
+
+[ext_resource type="PackedScene" uid="uid://wuddfw010v00" path="res://drag_select.tscn" id="1_kr1xa"]
+[ext_resource type="PackedScene" uid="uid://bqn7gfbujdnla" path="res://fps_counter.tscn" id="2_h7y3i"]
+
+[node name="UI" type="CanvasLayer"]
+
+[node name="DragSelect" parent="." instance=ExtResource("1_kr1xa")]
+
+[node name="FpsCounter" parent="." instance=ExtResource("2_h7y3i")]
+
+[node name="Label" type="Label" parent="."]
+offset_right = 301.0
+offset_bottom = 236.0
+text = "YOOOOOOO"
