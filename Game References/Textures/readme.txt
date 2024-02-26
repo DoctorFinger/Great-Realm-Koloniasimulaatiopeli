@@ -1,0 +1,1 @@
+Tykkään tosta "character-male-4" hahmosta eniten, tee ihan minkälaisen haluat siitä hahmosta, ei tarvi käyttää näitä referenssejä. Pistin kanssa linkkejä miten animoidaan kävelysykli, jne.
