@@ -1,0 +1,60 @@
+[gd_scene load_steps=3 format=3 uid="uid://q6huwy8dsxbd"]
+
+[ext_resource type="Script" path="res://inventory.gd" id="1_3gti6"]
+[ext_resource type="Texture2D" uid="uid://bt4jvrspt700g" path="res://inventory_background.png" id="1_g2gwe"]
+
+[node name="Inventory" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 400.0
+offset_bottom = 500.0
+script = ExtResource("1_3gti6")
+
+[node name="background" type="NinePatchRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_g2gwe")
+patch_margin_left = 33
+patch_margin_top = 33
+patch_margin_right = 33
+patch_margin_bottom = 33
+
+[node name="Margin" type="MarginContainer" parent="background"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="background/Margin"]
+layout_mode = 2
+
+[node name="Header" type="HBoxContainer" parent="background/Margin/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+
+[node name="Button" type="Button" parent="background/Margin/VBoxContainer/Header"]
+custom_minimum_size = Vector2(300, 50)
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+text = "Spawn"
+
+[node name="Slots" type="ScrollContainer" parent="background/Margin/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Grid" type="GridContainer" parent="background/Margin/VBoxContainer/Slots"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 4
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 7
+
+[connection signal="pressed" from="background/Margin/VBoxContainer/Header/Button" to="." method="_on_button_pressed"]
